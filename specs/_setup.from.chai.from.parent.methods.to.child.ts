@@ -79,7 +79,7 @@ class SomeControllerOwnMethodsApi {
       .chainProxify('assertHeader', assertHeaders)
       .chainProxify('assertArray', assertArray)
       .chainProxify('assertResponsePropEqual', assertResponsePropEqual)
-      .initChainModel(this.__proto__, this);
+      .initChainModel(this.__proto__,);
   }
 
   getDataMethod1(): IResponseData {

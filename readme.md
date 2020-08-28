@@ -32,7 +32,7 @@ class ControllerIterface {
     // this two assertions will be available for every method in this class
     chainProxify('assertBodyIncludes', assertResponseBody)
       .chainProxify('strictAssertBody', assertResponseBodyStrictEqual)
-      .initChainModel(this);
+      .initContextChainModel(this);
   }
 
   getDataFromServerController() {

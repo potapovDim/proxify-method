@@ -54,7 +54,7 @@ class MainIterface {
       .chainProxify('assertHeader', assertHeaders)
       .chainProxify('assertArray', assertArray)
       .chainProxify('assertResponsePropEqual', assertResponsePropEqual)
-      .initChainModel(this);
+      .initContextChainModel(this);
   }
 }
 

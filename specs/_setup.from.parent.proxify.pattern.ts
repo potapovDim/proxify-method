@@ -77,7 +77,7 @@ class SomeControllerWithProxifyDataPattern {
       .chainProxify('assertHeader', assertHeaders)
       .chainProxify('assertArray', assertArray)
       .chainProxify('assertResponsePropEqual', assertResponsePropEqual)
-      .initChainModel(this, 'DataMethod');
+      .initContextChainModel(this, 'DataMethod');
   }
 
   getDataMethod1(): IResponseData {
